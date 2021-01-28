@@ -61,6 +61,10 @@ header {
     padding: 0.5rem;
 }
 
+#calculator input:focus {
+    outline: none;
+}
+
 #calc-actions {
     width: 24rem;
     padding-bottom: 0;
@@ -76,6 +80,17 @@ header {
         margin: 0.8rem;
         cursor: pointer;
     }
+}
+
+#calculator button:focus {
+    outline: none;
+}
+
+#calculator button:hover,
+#calculator button:active {
+  background: #b0c6d8;
+  border-color: #b0c6d8;
+  font-weight: 500;
 }
 
 #results {
