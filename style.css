@@ -98,12 +98,11 @@ header h1 {
   cursor: pointer;
 }
 
-#calculator button:focus {
+#calc-actions button:focus {
   outline: none;
 }
 
-#calculator button:hover,
-#calculator button:active {
+#calc-actions button:hover, #calc-actions button :active {
   background: #b0c6d8;
   border-color: #b0c6d8;
   font-weight: 500;
